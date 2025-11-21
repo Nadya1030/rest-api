@@ -79,6 +79,8 @@ curl -X PUT http://localhost:3001/mahasiswa/1 \
   "nama": "Ahmad Syahroni",
   "jurusan": "Tata Boga"
 }'
+
+
 ```
 
 - DELETE (hapus) mahasiswa data
@@ -195,7 +197,7 @@ DB_SSLMODE: require
 
 - POST (create) data mahasiswa baru.
 ```bash
-curl -X POST http://<url-domain>.vercel.app/mahasiswa \
+curl -X POST https://rest-api-red.vercel.app/mahasiswa \
 -H "Authorization: Bearer 12345ABCDEF" \
 -H "Content-Type: application/json" \
 -d '{
