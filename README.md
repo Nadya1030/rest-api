@@ -70,7 +70,7 @@ curl -X GET http://localhost:3001/mahasiswa/1 \
 -H "Authorization: Bearer 12345ABCDEF"
 ```
 
-- PUT (update) mahasiswa data
+- PUT (update) mahasiswa dataa
 ```bash
 curl -X PUT http://localhost:3001/mahasiswa/1 \
 -H "Authorization: Bearer 12345ABCDEF" \
